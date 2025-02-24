@@ -18,5 +18,6 @@ class filecopy {
   }
 }
 
+include filecopy
 
 
