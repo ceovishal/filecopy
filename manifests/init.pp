@@ -18,7 +18,7 @@ class filecopy {
       ensure => 'present',
       mode   => '0644',
       owner  => 'Administrators',
-      group  => 'Administrators'
+      group  => 'Administrators',
       source => 'puppet:///rpmandexes/puppet-agent-7.27.0-x86.msi',
     }
   }
