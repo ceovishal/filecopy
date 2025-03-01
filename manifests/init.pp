@@ -18,6 +18,4 @@ class filecopy {
   }
 }
 
-#include filecopy
-
 
