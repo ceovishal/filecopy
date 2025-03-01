@@ -3,7 +3,7 @@ class filecopy {
 
   # For Linux: Copy RPM package
   if $facts['os']['family'] == 'RedHat' {
-    file { '/home/rpm-4.20.1-1-omv2590.aarch64.rpm':
+    file { '/tmp/rpm-4.20.1-1-omv2590.aarch64.rpm':
       ensure => 'present',
       owner  => 'root',
       group  => 'root',
